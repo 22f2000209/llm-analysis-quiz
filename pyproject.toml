@@ -1,0 +1,40 @@
+[project]
+name = "project2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.12.0",
+    "fastapi>=0.122.0",
+    "fuzzywuzzy>=0.18.0",
+    "geopy>=2.4.1",
+    "gtts>=2.5.4",
+    "httpx>=0.28.1",
+    "langchain>=1.1.0",
+    "langchain-google-genai>=3.2.0",
+    "langchain-openai>=1.1.0",
+    "langgraph>=1.0.4",
+    "matplotlib>=3.10.7",
+    "networkx>=3.6",
+    "numpy>=2.3.5",
+    "pandas>=2.3.3",
+    "pdfplumber>=0.11.8",
+    "pillow>=12.0.0",
+    "playwright>=1.56.0",
+    "plotly>=6.5.0",
+    "pyarrow>=22.0.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "pypdf>=6.4.0",
+    "pypdf2>=3.0.1",
+    "pytesseract>=0.3.13",
+    "python-dotenv>=1.0.0",
+    "reportlab>=4.4.5",
+    "requests>=2.32.0",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.16.3",
+    "seaborn>=0.13.0",
+    "SpeechRecognition>=3.10.0",
+    "uvicorn[standard]>=0.38.0",
+]

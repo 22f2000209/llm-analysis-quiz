@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.example
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Runtime files
+hybrid_llm_files/
+hybrid_logs_*.txt
+temp_files/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
